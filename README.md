@@ -12,3 +12,4 @@ All you need to launch the most classic H5 ever!
 
 ## Demo here: 
 https://tgenaitay.github.io/wechat-H5/
+need to upload on my github
