@@ -1,0 +1,46 @@
+/********/
+/* SWIPER */
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff!important;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.swiper-slide h2 {
+  font-size: 35px;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  /* text-align: center; */
+  line-height: 1.3em;
+  color: #000000e0;   /* off black */
+}
+
+.swiper-slide img {
+  width: 40%;
+  margin: 20px 0px;
+}
+
+#avatar  {
+  width: 100px;
+  border-radius: 50%;
+  opacity: 0.6;
+  align-self: flex-start;
+}
