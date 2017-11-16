@@ -27,7 +27,6 @@
       loop: false
     })
 
-
     function initAnimation() {
         $('.animated').each(function () {
             $(this).attr('data-origin-class', $(this).attr('class'));
