@@ -4,6 +4,7 @@
 @import url("components/arrow.css");
 @import url("components/swiper.css");
 @import url("components/music.css");
+@import url("components/font.css");
 
 /********/
 /* General style declarations */
@@ -42,7 +43,15 @@ body {
   position: relative;
   margin: 0 auto;
   background-color: #000;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Circular", sans-serif;
+}
+
+h1, h2 {
+  font-weight: 800;
+}
+
+p {
+  font-weight: 400;
 }
 
 mark {

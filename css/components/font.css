@@ -1,0 +1,24 @@
+/* circular-regular - latin */
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lineto-circular-book.eot'); /* IE9 Compat Modes */
+  src: local('Circular Book'), local('Circular-Book'),
+       url('../fonts/lineto-circular-book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lineto-circular-book.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lineto-circular-book.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lineto-circular-book.svg#Circular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/lineto-circular-black.eot'); /* IE9 Compat Modes */
+  src: local('Circular Black'), local('Circular-Black'),
+       url('../fonts/lineto-circular-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lineto-circular-black.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lineto-circular-black.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lineto-circular-black.svg#Circular') format('svg'); /* Legacy iOS */
+}

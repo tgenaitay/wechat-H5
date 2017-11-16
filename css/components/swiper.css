@@ -23,13 +23,14 @@
 }
 
 .swiper-slide h2 {
-  color: #fff;
   font-size: 35px;
   font-weight: bold;
   left: 0;
   right: 0;
   margin: 0 auto;
-  /*text-align: center;*/
+  /* text-align: center; */
+  line-height: 1.3em;
+  color: #000000e0;   /* off black */
 }
 
 .swiper-slide img {
