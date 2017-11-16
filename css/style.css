@@ -45,6 +45,18 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
+mark {
+  background-color: #0be316a3;
+  color: inherit;
+}
+
+.underlined {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: initial;
+  text-underline-position: under;
+}
+
 .loading-overlay {
   position: fixed;
   width: 100%;
@@ -74,6 +86,11 @@ body {
 
 .slide-3 {
   background-color: #7AB7FF;
+}
+
+.slide-4 {
+  background: linear-gradient( limegreen, transparent ), linear-gradient( 90deg, skyblue, transparent ), linear-gradient( -90deg, coral, transparent );
+  background-blend-mode: screen;
 }
 
 @-webkit-keyframes rotation {
