@@ -30,7 +30,7 @@ function wechatShare(appid_val, timestamp_val, nonceStr_val, signature_val){
       appId: appid_val, // 必填，公众号的唯一标识
       timestamp: timestamp_val, // 必填，生成签名的时间戳
       nonceStr: nonceStr_val, // 必填，生成签名的随机串
-      signature: signature_val,// 必填，签名，见附录1
+      signature: signature_val, // 必填，签名，见附录1
       jsApiList: [
         'checkJsApi',
         'onMenuShareTimeline',
